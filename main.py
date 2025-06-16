@@ -1,11 +1,12 @@
 from madlibs import *
 
-# randomly pick mad libs story
+# randomly pick mad libs story from range of integers 0-1
 
 import random
 randmadlib = random.randrange(2)
 
 # prompt user to provide words from lists, using generated story
+# function uses list, description of prompt as string
 
 if randmadlib == 0:   
         name1 = get_word(names, "name")

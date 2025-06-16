@@ -29,7 +29,7 @@ if randmadlib == 0:
 if randmadlib == 1:
         name1 = get_word(names, "name")
         noun1 = get_word(nouns, "object")
-        verb1 = get_word(verbs, "second action")
+        verb1 = get_word(verbs, "action")
         adjective1 = get_word(adjectives, "adjective")
         adjective2 = get_word(adjectives, "second adjective")
         food1 = get_word(foods, "food")
@@ -42,7 +42,7 @@ if randmadlib == 1:
         print(f'''
              Dear {name1}, 
         I am writing to you from a {adjective1} castle in an enchanted forest. I found myself here
-        one day after following a {color1} {animal1}. There are magical {animal2}s and {animal3}s
-        that {verb1}. I fall asleep each night on a bed of {food1} and dream of {adjective2} {noun1}s. 
+        one day after following a {color1} {animal1}. There are magical {animal2}s and {animal3}s that {verb1}.
+        I fall asleep each night on a bed of {food1} and dream of {adjective2} {noun1}s. 
         It feels as though I have lived here for {number1} {time1}. I hope one day you can visit, 
         although the only way to get here now is by finding the {color1} {animal1}!''')
